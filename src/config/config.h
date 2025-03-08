@@ -200,7 +200,7 @@
         #define MAX_NUM_INVERTERS   16
     #endif
 #else
-    #define MAX_NUM_INVERTERS   4
+    #define MAX_NUM_INVERTERS   5
 #endif
 
 // default send interval
