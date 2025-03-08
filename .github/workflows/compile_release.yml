@@ -11,7 +11,7 @@ jobs:
   check:
     name: Check Repository
     runs-on: ubuntu-latest
-    if: github.repository == 'lumapu/ahoy' && github.ref_name == 'main'
+    if: github.repository == 'xris99/ahoy' && github.ref_name == 'main'
     continue-on-error: false
     steps:
     - uses: actions/checkout@v4
