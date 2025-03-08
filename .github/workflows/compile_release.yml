@@ -212,6 +212,7 @@ jobs:
   deploy:
     name: Deploy Environments to fw.ahoydtu.de
     needs: [build-en, build-de, release]
+    if: github.repository == 'lamapu/ahoy' && github.ref_name == 'main'
     runs-on: ubuntu-latest
     continue-on-error: false
     steps:
